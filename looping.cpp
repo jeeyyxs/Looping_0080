@@ -7,8 +7,8 @@ int main( ){
    
     //Perulangan dengan FOR
     //mencetak tulisan seabnyak 5 kali
-    cout << "PERULANGAN FOR" << endl
-    for(int i=0; i <= 4; i++){
+    cout << "PERULANGAN FOR"<<endl;
+    for(int i=0; i<=4; i++){
         cout << "Teknologi Informasi UMY" << endl;
     }
     cout << endl;
@@ -17,11 +17,11 @@ int main( ){
 
     //Perulangan dengan WHILE
     cout << "PERULANGANN WHILE" << endl;
-    X = 1 + rand( )%10;
+    x = rand()%10;
 
     while(x <= 5){
         cout << "Bilangan acak = " << x << endl;
-        X = rand( )%10;
+        x = rand()%10;
     }
 
     cout << "Bilangan acak while yang terakhir =" << x << endl;
@@ -29,11 +29,11 @@ int main( ){
 
     //Perulangan dengan DO .. .WHILE
     cout << "PERULANGANN DO .. .WHILE" << endl;
-    x =1 + rand( )%10;
+    x = 1 + rand()%10;
     do{
         cout << "Bilangan acak = " << x << endl;
-        x = rand( )%10;
-    }while(x <= 5);
+        x = rand()%10;
+    }while(x<=5);
 
     cout << "Bilangan acak do-while yang terakhir =" << x << endl;
     cout << endl;
